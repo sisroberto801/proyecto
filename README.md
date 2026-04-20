@@ -2,15 +2,12 @@
 
 ## 👨‍💻 Autor
 
-Nombre: Roberto Carlos Olguin Ledezma 
+- Nombre: Roberto Carlos Olguin Ledezma 
 
-Proyecto desarrollado como parte del Diplomado Fullstack - Módulo Vue 3.
+### Accesos en session
 
-## Accesos en session
-
-User: sergio@email.com
-
-Password: 123456
+- User: sergio@email.com
+- Password: 123456
 
 ## 📌 Descripción General
 
@@ -20,7 +17,7 @@ práctica los conocimientos adquiridos durante el curso.
 Este proyecto implementa una aplicación de **gestión de proyectos y tareas**, permitiendo a los usuarios crear proyectos
 y asociar tareas específicas a cada proyecto.
 
-Nota: Se reutilizo el codigo del modulo Actual de fullstack todo relacionado a los usuarios.
+Nota: Se reutilizo el codigo del modulo Actual de Fullstack todo relacionado a los usuarios.
 
 ---
 
@@ -133,6 +130,13 @@ El proyecto incluye un archivo `db.json` que simula la base de datos con las ent
 - `projects` - Proyectos
 - `tasks` - Tareas asociadas a proyectos
 
+### App
+- Frontend
+  http://localhost:5173/proyectos
+- Backend
+  http://localhost:3000/projects
+---
+
 ### Instalación de dependencias del backend
 
 ```bash
@@ -172,25 +176,17 @@ json-server-auth db.json --port 3000 -r routes.json
 
 ---
 
-## 📚 Recomendaciones
-
-### IDE
-
-- VS Code + extensión Vue (Volar)
-- Deshabilitar Vetur
-
-### Navegador
-
-- Vue Devtools
-- Activar Custom Object Formatter
-
----
-### Capturas de Pantallas
+### Evidencias
 Listar Proyectos / Filtrar Proyectos
 ![project01.png](project01.png)
 Crear/Modificar Proyectos
 ![project02.png](project02.png)
-Listar Tareas / Filtrar tareas
+Eliminar Proyecto
 ![project03.png](project03.png)
+
+Listar Tareas / Filtrar tareas
+![project-task01.png](project-task01.png)
 Crear/Modificar Tareas
-![project04.png](project04.png)
+![project-task02.png](project-task02.png)
+Eliminar Tarea
+![project-task03.png](project-task03.png)

@@ -45,7 +45,6 @@ interface TaskStats {
 const router = useRouter()
 const route = useRoute()
 
-// Estado
 const project = ref<Project | null>(null)
 const tasks = ref<Task[]>([])
 const loading = ref(true)
@@ -67,7 +66,6 @@ const taskStats = ref<TaskStats>({
   pending: 0
 })
 
-// Métodos
 const loadProject = async () => {
   try {
     const projectId = Number(route.params.id)
@@ -89,8 +87,6 @@ const loadTasks = async (projectId: number) => {
     console.error('Error al cargar tareas:', error)
   }
 }
-
-
 const goBack = () => {
   router.push('/proyectos')
 }
