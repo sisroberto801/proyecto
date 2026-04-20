@@ -185,4 +185,7 @@ json-server-auth db.json --port 3000 -r routes.json
 - Activar Custom Object Formatter
 
 ---
-
+### Capturas de Pantallas
+![project-01.png](project-01.png)
+![project-02.png](project-02.png)
+![project-03.png](project-03.png)

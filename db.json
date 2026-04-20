@@ -15,19 +15,37 @@
   ],
   "projects": [
     {
-      "nombre": "FIDEICOMISOS",
-      "descripcion": "FID para Banco",
+      "nombre": "Vinos del Valle",
+      "descripcion": "Bebidas hechas de frutas",
       "estado": "pendiente",
       "fechaLimite": "2026-04-27",
       "userId": 1,
       "createdAt": "2026-04-19",
       "id": 1
+    },
+    {
+      "nombre": "Copelme",
+      "descripcion": "Empresa que produce Papel higienico",
+      "estado": "en_progreso",
+      "fechaLimite": "2026-04-30",
+      "userId": 2,
+      "createdAt": "2026-04-20",
+      "id": 2
+    },
+    {
+      "nombre": "Semapa",
+      "descripcion": "Servicio municipal de agua potable",
+      "estado": "completado",
+      "fechaLimite": "2026-05-10",
+      "userId": 1,
+      "createdAt": "2026-04-20",
+      "id": 3
     }
   ],
   "tasks": [
     {
-      "titulo": "AHO-001 BE: Creacion de base de datos ",
-      "descripcion": "AHO-001 BE: Creacion de base de datos  desc",
+      "titulo": "VIN-001: Cosecha de Uvas",
+      "descripcion": "Seleccionas uvas por tipo",
       "estado": "pendiente",
       "prioridad": "baja",
       "proyectoId": 1,
@@ -36,8 +54,8 @@
       "id": 1
     },
     {
-      "titulo": "AHO-002 BE: Check para validar campos de entrada",
-      "descripcion": "AHO-002 BE: Check para validar campos de entrada desc",
+      "titulo": "VIN-002: Fumigacion  de las Uvas Blancas",
+      "descripcion": "Se realizara la fumigacion de Uvas",
       "estado": "pendiente",
       "prioridad": "baja",
       "proyectoId": 1,
@@ -46,8 +64,8 @@
       "id": 2
     },
     {
-      "titulo": "AHO-003 BE: Formulario registro de usuario",
-      "descripcion": "AHO-003 BE: Formulario registro de usuario desc",
+      "titulo": "VIN-003: Fumigacion de las Uvas Moradas",
+      "descripcion": "Fumigacion para eliminar insectos",
       "estado": "completado",
       "prioridad": "alta",
       "proyectoId": 1,
