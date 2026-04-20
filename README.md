@@ -186,6 +186,11 @@ json-server-auth db.json --port 3000 -r routes.json
 
 ---
 ### Capturas de Pantallas
-![project-01.png](project-01.png)
-![project-02.png](project-02.png)
-![project-03.png](project-03.png)
+Listar Proyectos / Filtrar Proyectos
+![project01.png](project01.png)
+Crear/Modificar Proyectos
+![project02.png](project02.png)
+Listar Tareas / Filtrar tareas
+![project03.png](project03.png)
+Crear/Modificar Tareas
+![project04.png](project04.png)
